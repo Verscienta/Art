@@ -1,0 +1,32 @@
+//Headings
+#site-name {
+	font-size:rem(60);
+	line-height:1em;
+}
+h1 {
+	font-size:rem(48);
+	line-height:1.05em;
+}
+h2 {
+	font-size:rem(36);
+	line-height:1.25em;
+}
+
+//Body
+body {
+	line-height:1.375;
+	font-size:rem(16);
+}
+
+header {
+	a {
+		color:#fff;
+	}
+	a:visited, a:active, a:link {
+		color:#fff;
+	}
+	a:hover {
+		color:#fff;
+		border-bottom:1px #fff solid;
+	}
+}

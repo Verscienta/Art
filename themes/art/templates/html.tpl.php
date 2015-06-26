@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html<?php print $html_attributes . $rdf_namespaces; ?>>
+<html<?php print $rdf_namespaces; ?>>
 <head>
   <?php print $head; ?>
   <title><?php print $head_title; ?></title>
   <?php print $styles; ?>
   <?php print $scripts; ?>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 <body class="<?php print $classes; ?>" <?php print $attributes; ?>>
   <div id="skip">

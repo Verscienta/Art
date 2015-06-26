@@ -8,3 +8,9 @@
 // Import variables and mixins to be used.
 @import "_config.sass";
 @import "_sprites.sass";
+
+header{
+	background:#333;
+	color:white;
+	width:100%;
+}
